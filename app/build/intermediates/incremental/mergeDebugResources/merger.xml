@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res"/><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/build/generated/res/rs/debug"/><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res"><file path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/values/colors.xml" qualifiers=""><color name="marker_color">#AFFF</color><color name="text_color">#000000</color><color name="background_color">#FFFFFF</color></file><file path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/values/strings.xml" qualifiers=""><string name="Button_right">right</string><string name="settings_book_begin">Buch von</string><string name="warning_read_vocabularies_text">\
+	Beim Neueinlesen der Datenbank werden sämtliche alten Daten gelöscht \n
+	Wirklich löschen?
+	</string><string name="Button_continue">continue</string><string name="warning_title">Warning: </string><string name="error_no_vocabularies_text">\
+	Zu Ihrer Auswahl konnten keine Vokabeln gefunden werden.
+	Bitte ändern Sie ihre Auswahl.
+	</string><string name="settings_level_end">Karteikasten bis</string><string name="statistics_title">Statistics: </string><string name="settings_learn_mode">Lernmodus</string><string name="menu_statistics">Statistics</string><string name="settings_lesson_begin">Lektion von</string><string name="info_text_1">Vocabulary Trainer\n\nCopyright (C) [2012]  [Tobias Endrikat]
+	    \n\nThis program comes with ABSOLUTELY NO WARRANTY.
+	    \nIt is free software, and you are welcome to redistribute it under certain conditions
+	    \n\nLicense: GPLv3 -> read more at 
+	    </string><string name="settings_button_read_vocabularies">read VocabularyTrainerBackup.txt</string><string name="info_text_2">
+	    \n\nVersion: 0.5
+	    \n\nThis Software is completely free, but if you like it, I would by really glad would
+	    you donate something.
+	    \nJust feel free to use the PayPal Button below, it will open a window of your favorite web-browser. ;)  
+	    \n</string><string name="error_no_vocabularies_list_text">\
+	The file VocabularyTrainerBackup.txt could not be found on your SD-Card.
+	</string><string name="menu_settings">Settings</string><string name="menu_info">Info</string><string name="settings_level_begin">Karteikasten von</string><string name="serverExampleAddresse">ftp.example.org</string><string name="server_password">password</string><string name="local_file_path">local update-file path</string><string name="Button_server_ok">server</string><string name="server_adresse">server adresse:</string><string name="Button_ready">ready</string><string name="settings_title">Settings</string><string name="info_title">Info: </string><string name="settings_language">language</string><string name="Button_delete">delete</string><string name="server_port">port (standard: 21):</string><string name="serverExampleUsername">username</string><string name="server_file_path">server update-file path</string><string name="settings_button_update_vocabularies">update vocabularies</string><string name="Button_cancel">Cancel</string><string name="app_name">Vocabulary Trainer</string><string name="update_vocabularies_text">For updating your vocabularies
+	    from an online text file
+	    please enter the name of the server and the password
+	    for the ftp connection.</string><string name="serverExampleFilePath">update_vocabularies_list.txt</string><string name="settings_learn_mode_watch_only">nur anschauen</string><string name="settings_learn_mode_classic">klassisch mit einsortieren</string><string name="error_title">Error: </string><string name="localeExampleFilePath">update_vocabularies_list.txt</string><string name="Button_false">false</string><string name="serverExamplePassword">password</string><string name="update_title">Update Vocabularies: </string><string name="server_username">username:</string><string name="Button_local_file_ok">local file</string><string name="settings_book_end">Buch bis</string><string name="settings_lesson_end">Lektion bis</string><string name="settings_button_write_vocabularies">write backup file</string></file><file path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="languages">
+			<item>Deutsch</item>
+			<item>English</item>
+			<item>Français</item>
+			<item>中文 (简体)</item>
+		</string-array><string-array name="languagecodes">
+			<item>de</item>
+			<item>en</item>
+			<item>fr</item>
+			<item>cn</item>
+		</string-array><string-array name="learn_mode">
+			<item>@string/settings_learn_mode_watch_only</item>
+			<item>@string/settings_learn_mode_classic</item>
+		</string-array></file><file name="update_vocabularies_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/update_vocabularies_layout.xml" qualifiers="" type="layout"/><file name="settings_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/settings_layout.xml" qualifiers="" type="layout"/><file name="warning_read_vocabularies_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/warning_read_vocabularies_layout.xml" qualifiers="" type="layout"/><file name="info_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/info_layout.xml" qualifiers="" type="layout"/><file name="statistics_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/statistics_layout.xml" qualifiers="" type="layout"/><file name="error_no_vocabularies_list_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/error_no_vocabularies_list_layout.xml" qualifiers="" type="layout"/><file name="main" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/main.xml" qualifiers="" type="layout"/><file name="error_no_vocabularies_layout" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/error_no_vocabularies_layout.xml" qualifiers="" type="layout"/><file name="icon" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/drawable-ldpi/icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="icon" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/drawable-mdpi/icon.png" qualifiers="mdpi-v4" type="drawable"/><file name="icon" path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/drawable-hdpi/icon.png" qualifiers="hdpi-v4" type="drawable"/><file path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/values-de/strings.xml" qualifiers="de"><string name="menu_info">Info</string><string name="settings_level_end">Karteikasten bis</string><string name="settings_learn_mode">Lernmodus</string><string name="update_title">Update Vokabelliste: </string><string name="Button_right">richtig</string><string name="statistics_title">Statistik: </string><string name="warning_read_vocabularies_text">\
+	Beim Neueinlesen der Datenbank werden sämtliche alten Daten gelöscht \n
+	Wirklich löschen?
+	</string><string name="settings_button_write_vocabularies">schreibe backup datei</string><string name="warning_title">Warnung: </string><string name="settings_book_end">Buch bis</string><string name="Button_ready">fertig</string><string name="settings_level_begin">Karteikasten von</string><string name="app_name">Vocabulary Trainer</string><string name="server_adresse">Serveradresse:</string><string name="Button_false">falsch</string><string name="server_password">Serverpasswort</string><string name="settings_lesson_end">Lektion bis</string><string name="info_title">Info: </string><string name="settings_title">Einstellungen</string><string name="info_text_1">Vocabulary Trainer\n\nCopyright (C) [2012]  [Tobias Endrikat]
+	    \n\nFür dieses Programm besteht KEINERLEI GARANTIE.
+	    \nEs ist freie Software, die Sie unter bestimmten Bedingungen weitergeben dürfen.
+	    \n\nLicense: GPLv3 -> mehr dazu unter 
+	    </string><string name="info_text_2">
+	    \n\nVersion: 0.5
+	    \n\nDiese Software ist komplett frei, wenn sie Ihnen jedoch gefallen sollte,
+	    würde ich mich sehr über eine Spende freuen.
+	    \nDazu einfach auf den PayPal Button tippen und es wird sich ein
+	    neues Fenster ihres bevorzugten Web-Browsers öffnen. ;)  
+	    \n</string><string name="Button_continue">weiter</string><string name="settings_lesson_begin">Lektion von</string><string name="Button_delete">löschen</string><string name="error_no_vocabularies_list_text">\
+	Die Datei VocabularyTrainerBackup.txt konnte auf der SDKarte nicht gefunden werden
+	</string><string name="settings_button_read_vocabularies">lese vocabularies_list.txt</string><string name="update_vocabularies_text">Bitte geben Sie den Servernamen und das Passwort ein,
+	    um die Vokabelliste upzudaten.</string><string name="settings_book_begin">Buch von</string><string name="settings_learn_mode_watch_only">nur anschauen</string><string name="menu_settings">Einstellungen</string><string name="settings_language">Sprache</string><string name="settings_learn_mode_classic">klassisch mit einsortieren</string><string name="error_title">Fehler: </string><string name="error_no_vocabularies_text">\
+	Zu Ihrer Auswahl konnten keine Vokabeln gefunden werden.
+	Bitte ändern Sie ihre Auswahl.
+	</string><string name="menu_statistics">Statistik</string></file></source><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/build/generated/res/rs/debug"/><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/debug/res"/></dataSet><mergedItems/></merger>

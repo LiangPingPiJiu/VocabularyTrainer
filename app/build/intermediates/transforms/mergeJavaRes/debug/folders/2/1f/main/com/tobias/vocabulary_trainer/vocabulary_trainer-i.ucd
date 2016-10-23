@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="vocabulary_trainer-i" foregroundRGB="255,255,255" description="" id="{UMLID=_53AQgE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer}" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledX="5" scrolledY="-6" tag="10" key="323030373036323920566F636162756C617279547261696E6572" Shrink="true">
+  <children xsi:type="editmodel:ClassEditModel" name="ErrorNoVocabulariesList" location="1090,378" size="195,67" timstampe="2" stereotype="" id="{UMLID=_7LSi4E2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/ErrorNoVocabulariesList}" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_7NT8IE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ErrorNoVocabularies" location="1108,462" size="172,67" timstampe="2" stereotype="" id="{UMLID=_7cp_sE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/ErrorNoVocabularies}" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_7c8TkE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Info" location="1140,545" size="117,67" timstampe="2" stereotype="" id="{UMLID=_7g0G8E2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/Info}" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_7hL6YE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="WarningReadVocabularies" location="1091,28" size="207,90" timstampe="2" stereotype="" id="{UMLID=_7lnucE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/WarningReadVocabularies}" runTimeClassModel="onCreate(Landroid.os.Bundle;),vocabularies">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="vocabularies" size="94,21" id="{UMLID=_7nOQ8E2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_7nZQEU2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" name="Constants" location="1119,138" size="161,214" timstampe="2" stereotype="" id="{UMLID=_7sImIE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/Constants}" runTimeClassModel="TABLE_NAME,DATABASE_VERSION,LEVEL,DATABASE_NAME,TRANSLATION,LESSON,CHARACTER,BOOK,PHONETIC_SCRIPT">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="DATABASE_NAME" size="121,16" id="{UMLID=_7tmlwE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="DATABASE_VERSION" size="138,16" id="{UMLID=_7tfRAU2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TABLE_NAME" size="99,16" id="{UMLID=_7tWHEE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="BOOK" size="59,16" id="{UMLID=_7t_AQE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="LESSON" size="72,16" id="{UMLID=_7t3EcE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="CHARACTER" size="97,16" id="{UMLID=_7t6u0E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PHONETIC_SCRIPT" size="131,16" id="{UMLID=_7uCqoE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TRANSLATION" size="104,16" id="{UMLID=_7tvvsE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="LEVEL" size="62,16" id="{UMLID=_7tjicE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Statistics" location="1148,629" size="117,85" timstampe="2" stereotype="" id="{UMLID=_7wilAE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/Statistics}" runTimeClassModel="cursor,onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="cursor" size="59,16" id="{UMLID=_7w-p4E2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_7xGlsE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DrawCanvas" location="196,83" size="156,442" timstampe="4" stereotype="" id="{UMLID=_72CJAE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/DrawCanvas}" runTimeClassModel="circlePaint,onTouchEvent(Landroid.view.MotionEvent;),getBearing(),setBearing(F),DrawCanvas(Landroid.content.Context;),onDraw(Landroid.graphics.Canvas;),measure(I),dotsList,onMeasure(II),loeschen,draw,paintDot,onKeyDown(ILandroid.view.KeyEvent;),DrawCanvas(Landroid.content.Context;Landroid.util.AttributeSet;I),vocabularyTrainer,DrawCanvas(Landroid.content.Context;Landroid.util.AttributeSet;),bearing,actual,textPaint,initCanvas(),markerPaint">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,195">
+      <children xsi:type="editmodel:AttributeEditModel" name="markerPaint" size="87,16" id="{UMLID=_74MFIE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="textPaint" size="70,16" id="{UMLID=_74DiQE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="circlePaint" size="77,16" id="{UMLID=_73ik4E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="draw" size="53,16" id="{UMLID=_73e6gE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="paintDot" size="69,16" id="{UMLID=_73pSkE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vocabularyTrainer" size="121,21" id="{UMLID=_73uLEE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dotsList" size="71,21" id="{UMLID=_739boE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="actual" size="63,21" id="{UMLID=_733VAE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="loeschen" size="71,16" id="{UMLID=_74HMoE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bearing" size="65,16" id="{UMLID=_73zqoU2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,198">
+      <children xsi:type="editmodel:MethodEditModel" name="DrawCanvas" size="113,16" id="{UMLID=_74Y5cE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DrawCanvas" size="124,16" id="{UMLID=_76PTkE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DrawCanvas" size="135,16" id="{UMLID=_756jcE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initCanvas" size="89,16" id="{UMLID=_75cpYE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onMeasure" size="116,16" id="{UMLID=_75yAkE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="measure" size="93,16" id="{UMLID=_75UGgE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBearing" size="102,16" id="{UMLID=_75fFoE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBearing" size="92,16" id="{UMLID=_74PvgE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDraw" size="89,16" id="{UMLID=_75lzUE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTouchEvent" size="119,16" id="{UMLID=_74_WYE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onKeyDown" size="120,16" id="{UMLID=_74qmQE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8Oz1YE2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="156,300" id="{UMLID=_8Oz1YU2SEeCkzPiO7Q0XSw}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="359,362" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="vocabularyTrainer" location="0,142" id="{UMLID=_73uLEE2SEeCkzPiO7Q0XSw}" multiplicityLabel="//@children.6/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.0/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="519,389" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="vocabularyTrainer" location="439,362" size="86,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8O4t4E2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,432" id="{UMLID=_8O4t4U2SEeCkzPiO7Q0XSw}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="183,494" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="actual" location="101,0" id="{UMLID=_733VAE2SEeCkzPiO7Q0XSw}" multiplicityLabel="//@children.6/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.1/@children.2/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="149,624" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="actual" location="107,624" size="28,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8O3fwE2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="119,442" id="{UMLID=_8O3fwU2SEeCkzPiO7Q0XSw}" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="321,531" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="dotsList" location="35,0" id="{UMLID=_739boE2SEeCkzPiO7Q0XSw}" multiplicityLabel="//@children.6/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.6/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="301,680" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ dotsList" location="321,680" size="45,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_8AHSEU2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="170,26" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,442" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="169,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_8C6HYU2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.4/@children.2" label="//@children.6/@sourceConnections.4/@children.0" sourceEnd="//@children.6/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="183,595" size="91,26" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="17.999999999999996" distanceFromWire="54.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,441" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,15"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_8KCDEU2SEeCkzPiO7Q0XSw}" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.5/@children.2" label="//@children.6/@sourceConnections.5/@children.0" sourceEnd="//@children.6/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="107,26" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,270" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,112"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1 //@children.7/@sourceConnections.0 //@children.6/@sourceConnections.4 //@children.8/@sourceConnections.0" name="Dot" location="42,644" size="111,144" timstampe="2" stereotype="" id="{UMLID=_736_YE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/Dot}" runTimeClassModel="follower,drawLine,y,Dot(IIZ),x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="x" size="34,16" id="{UMLID=_8QTDIE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" size="34,16" id="{UMLID=_8QPYwE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="follower" size="72,21" id="{UMLID=_8QBWUE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="drawLine" size="73,16" id="{UMLID=_8QFAsE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Dot" size="90,16" id="{UMLID=_8QcNEE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8RjnYE2SEeCkzPiO7Q0XSw}" source="//@children.7" target="//@children.7" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="follower" location="0,10" id="{UMLID=_8QBWUE2SEeCkzPiO7Q0XSw}" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="28,633" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="follower" location="-3,660" size="37,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="12,0" id="{UMLID=_8RjnYU2SEeCkzPiO7Q0XSw}" anchorKind="FixedAtEdge" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="60,624" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8Vj9oE2SEeCkzPiO7Q0XSw}" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="first" location="111,70" id="{UMLID=_8SajAE2SEeCkzPiO7Q0XSw}" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.7/@sourceConnections.1/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="159,720" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="first" location="159,693" size="17,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,14" id="{UMLID=_8Vj9oU2SEeCkzPiO7Q0XSw}" multiplicityLabel="//@children.7/@sourceConnections.1/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="267,693" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.2 //@children.7/@sourceConnections.1 //@children.6/@sourceConnections.3" name="DotsList" location="280,700" size="169,126" timstampe="2" stereotype="" id="{UMLID=_74CUIE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/DotsList}" runTimeClassModel="vorneEinfuegen(IIZ),isEmpty(),DotsList(),first">
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="first" size="52,21" id="{UMLID=_8SajAE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,54">
+      <children xsi:type="editmodel:MethodEditModel" name="DotsList" size="78,16" id="{UMLID=_8TGfgE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" size="77,16" id="{UMLID=_8S8HcE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vorneEinfuegen" size="148,16" id="{UMLID=_8Sk7EE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_8TlnsE2SEeCkzPiO7Q0XSw}" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="170,764" size="91,26" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="1.0" distanceFromWire="33.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,100"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.5" name="VocabularyTrainer" location="532,241" size="300,509" timstampe="14" stereotype="" id="{UMLID=_73x1cE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer}" runTimeClassModel="vocList,onCreateOptionsMenu(Landroid.view.Menu;),WHERE,cursor,translation,settings,onCreate(Landroid.os.Bundle;),vocabularies,noVocabulariesList,onlyWatch(),character,draw,numberOfVocabularies,SHOW_SETTINGS,onResume(),readVocabularies,onlyWatch,onOptionsItemSelected(Landroid.view.MenuItem;),phonetic_script,noVocabularies,BottomTitles,PhoneticScriptTextView,current_vocabulary_id,FROM,ORDER_BY">
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,370">
+      <children xsi:type="editmodel:AttributeEditModel" name="draw" size="53,16" id="{UMLID=_8ZrBkE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="BottomTitles" size="88,16" id="{UMLID=_8Zur8E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="character" size="74,16" id="{UMLID=_8ZliAE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="phonetic_script" size="100,16" id="{UMLID=_8ZYtsE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="translation" size="78,16" id="{UMLID=_8ZL5YE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="current_vocabulary_id" size="134,16" id="{UMLID=_8Z5rEE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PhoneticScriptTextView" size="140,16" id="{UMLID=_8ZxIME2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="FROM" size="61,16" id="{UMLID=_8Z8uYE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ORDER_BY" size="88,16" id="{UMLID=_8aF4UE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="WHERE" size="69,16" id="{UMLID=_8ZA6QU2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vocabularies" size="94,21" id="{UMLID=_8ZW4gE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="settings" size="65,16" id="{UMLID=_8ZO8sE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vocList" size="67,21" id="{UMLID=_8YxpsE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numberOfVocabularies" size="137,16" id="{UMLID=_8Z1ZoE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="SHOW_SETTINGS" size="122,16" id="{UMLID=_8aCN8E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cursor" size="59,16" id="{UMLID=_8ZIPAE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="readVocabularies" size="124,16" fontInfo="Omondo_Font_Default-8-0" id="{UMLID=_8YtYQE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="onlyWatch" size="78,16" id="{UMLID=_8ZEkoE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noVocabularies" size="101,16" id="{UMLID=_8Zjs0E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noVocabulariesList" size="117,16" id="{UMLID=_8ZeNQE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="279,90">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreateOptionsMenu" size="228,16" id="{UMLID=_8a8M4E2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer#onCreateOptionsMenu(Landroid.view.Menu;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onResume" size="92,16" id="{UMLID=_8a5woE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer#onResume()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onlyWatch" size="133,16" id="{UMLID=_8bQ9AE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer#onlyWatch()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onOptionsItemSelected" size="263,16" id="{UMLID=_8agIAE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer#onOptionsItemSelected(Landroid.view.MenuItem;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="279,16" id="{UMLID=_8aJisE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/VocabularyTrainer#onCreate(Landroid.os.Bundle;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IntegerList" location="697,26" size="127,162" timstampe="2" stereotype="" id="{UMLID=_82VvcE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/IntegerList}" runTimeClassModel="delete(I),count(),IntegerList(),contains(I),addAtBegin(I),first">
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="first" size="52,21" id="{UMLID=_821esE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,90">
+      <children xsi:type="editmodel:MethodEditModel" name="IntegerList" size="90,16" id="{UMLID=_83bUkE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAtBegin" size="106,16" id="{UMLID=_83Lc8E2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="count" size="66,16" id="{UMLID=_83BE4U2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="delete" size="80,16" id="{UMLID=_83Q8gE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" size="90,16" id="{UMLID=_83fmAE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_88Z7ME2SEeCkzPiO7Q0XSw}" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="127,54" id="{UMLID=_88Z7MU2SEeCkzPiO7Q0XSw}" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="831,60" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="first" location="0,53" id="{UMLID=_821esE2SEeCkzPiO7Q0XSw}" multiplicityLabel="//@children.10/@sourceConnections.0/@children.2/@children.0" roleLabel="//@children.10/@sourceConnections.0/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="867,87" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ first" location="847,60" size="26,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_85PScE2SEeCkzPiO7Q0XSw}" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="91,26" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,71" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,88"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.10/@sourceConnections.1" name="IntegerListElement" location="881,27" size="161,108" timstampe="2" stereotype="" id="{UMLID=_826XME2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/IntegerListElement}" runTimeClassModel="follower,n,IntegerListElement(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,41">
+      <children xsi:type="editmodel:AttributeEditModel" name="n" size="35,16" id="{UMLID=_89k_4E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="follower" size="72,21" id="{UMLID=_89h8kE2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="IntegerListElement" size="140,16" id="{UMLID=_89oqQE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_8-FWME2SEeCkzPiO7Q0XSw}" source="//@children.11" target="//@children.11" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="follower" location="0,10" id="{UMLID=_89h8kE2SEeCkzPiO7Q0XSw}" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.11/@sourceConnections.0/@children.1/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="867,16" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ follower" location="827,43" size="46,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="10,0" id="{UMLID=_8-FWMU2SEeCkzPiO7Q0XSw}" anchorKind="FixedAtEdge" multiplicityLabel="//@children.11/@sourceConnections.0/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="897,6" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Settings" location="1302,28" size="200,835" timstampe="2" stereotype="" id="{UMLID=_8-UmwE2SEeCkzPiO7Q0XSw,JavaID=org.example.vocabulary_trainer/Settings}" runTimeClassModel="spinnerBookBegin,available_lessons_string,available_books,PREF_LESSON_END,available_lessons_end,onCreate(Landroid.os.Bundle;),vocabularies,PREF_LESSON_BEGIN,spinnerLessonEnd,available_books_string,savePreferences(),spinnerLearnMode,PREF_BOOK_END,spinnerBookEnd,prefs,counterStarted,populateSpinners(),levels,PREF_LEVEL_BEGIN,available_lessons,onResume(),available_books_end,PREF_LEVEL_END,USER_PREFERENCE,selected_spinner_lesson_begin,PREF_LEARN_MODE,onItemSelected(Ljava.lang.Object;Landroid.view.View;IJ),selected_spinner_book_begin,firstTime,available_books_end_string,available_lessons_end_string,spinnerLevelBegin,updateUIFromPreferences(),writeVocabularies(),onNothingSelected(Ljava.lang.Object;),FROM,book,PREF_BOOK_BEGIN,spinnerLevelEnd,ORDER_BY,selected_spinner_book_end,spinnerLessonBegin">
+    <children xsi:type="editmodel:CompartmentEditModel" size="177,642">
+      <children xsi:type="editmodel:AttributeEditModel" name="vocabularies" size="94,21" id="{UMLID=_9Dn9gE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_books" size="110,21" id="{UMLID=_9DSmUE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_books_string" size="136,16" id="{UMLID=_9D0KwE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_books_end" size="134,21" id="{UMLID=_9EYLcE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_books_end_string" size="160,16" id="{UMLID=_9Ewl8E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="book" size="52,16" id="{UMLID=_9FK1oE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_lessons" size="117,21" id="{UMLID=_9ET6AE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_lessons_string" size="143,16" id="{UMLID=_9DHnMU2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_lessons_end" size="141,21" id="{UMLID=_9Dk6ME2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="available_lessons_end_string" size="167,16" id="{UMLID=_9E7lEE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selected_spinner_lesson_begin" size="177,16" id="{UMLID=_9EmN4E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selected_spinner_book_begin" size="170,16" id="{UMLID=_9Es7kE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selected_spinner_book_end" size="162,16" id="{UMLID=_9FaGME2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerBookBegin" size="115,16" id="{UMLID=_9C49sE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerBookEnd" size="107,16" id="{UMLID=_9EFQgE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerLessonBegin" size="125,16" id="{UMLID=_9FdwkE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerLessonEnd" size="117,16" id="{UMLID=_9DwgYE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerLevelBegin" size="116,16" id="{UMLID=_9FBEoE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerLevelEnd" size="108,16" id="{UMLID=_9FSxcE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spinnerLearnMode" size="119,16" id="{UMLID=_9D6RYE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="levels" size="61,21" id="{UMLID=_9EL-ME2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="firstTime" size="70,16" id="{UMLID=_9E2skE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="counterStarted" size="100,16" id="{UMLID=_9EJh8E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="USER_PREFERENCE" size="139,16" id="{UMLID=_9EijgE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_BOOK_BEGIN" size="133,16" id="{UMLID=_9FOgAE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_BOOK_END" size="123,16" id="{UMLID=_9D97wE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_LESSON_BEGIN" size="146,16" id="{UMLID=_9Drn4E2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_LESSON_END" size="136,16" id="{UMLID=_9DbwQE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_LEVEL_BEGIN" size="136,16" id="{UMLID=_9EPokE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_LEVEL_END" size="126,16" id="{UMLID=_9Ee5IE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PREF_LEARN_MODE" size="138,16" id="{UMLID=_9Ep4QE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prefs" size="53,16" id="{UMLID=_9ECNME2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="FROM" size="61,16" id="{UMLID=_9FFWEE2SEeCkzPiO7Q0XSw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ORDER_BY" size="88,16" id="{UMLID=_9FWb0E2SEeCkzPiO7Q0XSw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,144">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" size="96,16" id="{UMLID=_9F_8EE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onResume" size="92,16" id="{UMLID=_9FmTcE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateUIFromPreferences" size="168,16" id="{UMLID=_9FkeQE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="savePreferences" size="120,16" id="{UMLID=_9FpWwE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onItemSelected" size="158,16" id="{UMLID=_9GQawE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onNothingSelected" size="141,16" id="{UMLID=_9FrzAE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="populateSpinners" size="123,16" id="{UMLID=_9GtGsE2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeVocabularies" size="123,16" id="{UMLID=_9Fgz4E2SEeCkzPiO7Q0XSw}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DataType" location="1073,576" size="105,63" timstampe="12" stereotype="dataType" description="UML" id="{UMLID=_HIKnwE2XEeCkzPiO7Q0XSw}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="4" showScope="InPackage" properties="wireOptions=0"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="14,0" rulerUnit="cm" gridLineStyle="5">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@color/background_color"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dip">
+	<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+	<TextView
+		android:id="@+id/about_content"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/update_vocabularies_text" />
+	<TextView
+		android:id="@+id/server_adresse"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/server_adresse" />
+	<EditText
+        android:id="@+id/server_adresse_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+	<TextView
+		android:id="@+id/server_username"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/server_username" />
+	<EditText
+        android:id="@+id/server_username_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+	<TextView
+		android:id="@+id/server_password"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/server_password" />
+	<EditText
+        android:id="@+id/server_password_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@android:drawable/editbox_background"/>
+	<TextView
+		android:id="@+id/server_port"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/server_port" />
+	<EditText
+        android:id="@+id/server_port_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+	<TextView
+		android:id="@+id/server_file_path"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/server_file_path" />
+	<EditText
+        android:id="@+id/server_file_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+	<TextView
+		android:id="@+id/local_file_path"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/local_file_path" />
+	<EditText
+        android:id="@+id/local_file_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+	<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		<Button android:id="@+id/server_ok"
+  			android:layout_width="100dip"
+    		android:layout_height="wrap_content"
+        	android:text="@string/Button_server_ok"
+        	android:padding="10dip"></Button>
+		<Button android:id="@+id/local_file_ok"
+  			android:layout_width="100dip"
+    		android:layout_height="wrap_content"
+        	android:text="@string/Button_local_file_ok"
+        	android:padding="10dip"></Button>
+        <Button android:id="@+id/Cancel"
+  			android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:text="@string/Button_cancel"
+        	android:padding="10dip"></Button>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

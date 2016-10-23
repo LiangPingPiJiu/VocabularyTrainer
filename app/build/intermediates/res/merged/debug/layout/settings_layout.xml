@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@color/background_color"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TextView
+				android:id="@+id/title"
+				android:text="@string/settings_title"
+				android:textSize="23dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<TextView
+				android:id="@+id/text_language"
+				android:text="@string/settings_language"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_languages"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_book_begin"
+				android:text="@string/settings_book_begin"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_book_begin"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_lesson_begin"
+				android:text="@string/settings_lesson_begin"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_lesson_begin"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_book_end"
+				android:text="@string/settings_book_end"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_book_end"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_lesson_end"
+				android:text="@string/settings_lesson_end"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_lesson_end"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_level_begin"
+				android:text="@string/settings_level_begin"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_level_begin"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_level_end"
+				android:text="@string/settings_level_end"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_level_end"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<TextView
+				android:id="@+id/text_learn_mode"
+				android:text="@string/settings_learn_mode"
+				android:textSize="15dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+			<Spinner
+				android:id="@+id/spinner_learn_mode"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:drawSelectorOnTop="true"/>
+			<Button android:id="@+id/updateVocabularies"
+  		  		android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+            	android:text="@string/settings_button_update_vocabularies"
+            	android:padding="3dip"></Button>
+			<Button android:id="@+id/readVocabularies"
+  		  		android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+            	android:text="@string/settings_button_read_vocabularies"
+            	android:padding="3dip"></Button>
+			<Button android:id="@+id/writeVocabularies"
+  		  		android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+            	android:text="@string/settings_button_write_vocabularies"
+            	android:padding="3dip"></Button>
+			<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">	
+			<Button android:id="@+id/OkButton"
+  		  		android:layout_width="150dp"
+    			android:layout_height="wrap_content"
+            	android:text="OK"
+            	android:padding="3dip"></Button>
+			<Button android:id="@+id/CancelButton"
+  		  		android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+            	android:text="Cancel"
+            	android:padding="3dip"></Button>
+			</LinearLayout>
+		</LinearLayout>		
+	</ScrollView>
+</LinearLayout>

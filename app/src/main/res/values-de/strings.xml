@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+<resources>
+    <string name="app_name">Vocabulary Trainer</string>
+<!--errors	-->
+	<string name="error_title">Fehler: </string>
+<!--warnings	-->
+	<string name="warning_title">Warnung: </string>
+<!--UpdateVocabularies	-->
+	<string name="update_title">Update Vokabelliste: </string>
+	<string name="update_vocabularies_text">Bitte geben Sie den Servernamen und das Passwort ein,
+	    um die Vokabelliste upzudaten.</string>
+	<string name="server_adresse">Serveradresse:</string>
+	<string name="server_password">Serverpasswort</string>
+<!--Info	-->
+	<string name="info_title">Info: </string>
+	<string name="info_text_1">Vocabulary Trainer\n\nCopyright (C) [2012]  [Tobias Endrikat]
+	    \n\nFür dieses Programm besteht KEINERLEI GARANTIE.
+	    \nEs ist freie Software, die Sie unter bestimmten Bedingungen weitergeben dürfen.
+	    \n\nLicense: GPLv3 -> mehr dazu unter 
+	    </string>
+	<string name="info_text_2">
+	    \n\nVersion: 0.5
+	    \n\nDiese Software ist komplett frei, wenn sie Ihnen jedoch gefallen sollte,
+	    würde ich mich sehr über eine Spende freuen.
+	    \nDazu einfach auf den PayPal Button tippen und es wird sich ein
+	    neues Fenster ihres bevorzugten Web-Browsers öffnen. ;)  
+	    \n</string>
+<!--Statistics	-->
+	<string name="statistics_title">Statistik: </string>
+<!--error no vocabularies_list.txt	-->
+	<string name="error_no_vocabularies_list_text">\
+	Die Datei VocabularyTrainerBackup.txt konnte auf der SDKarte nicht gefunden werden
+	</string>
+<!--error no vocabularies	-->
+	<string name="error_no_vocabularies_text">\
+	Zu Ihrer Auswahl konnten keine Vokabeln gefunden werden.
+	Bitte ändern Sie ihre Auswahl.
+	</string>
+<!--warning read vocabularies	-->
+	<string name="warning_read_vocabularies_text">\
+	Beim Neueinlesen der Datenbank werden sämtliche alten Daten gelöscht \n
+	Wirklich löschen?
+	</string>
+	
+<!--VocabularyTrainer-->	
+<!--menu items-->
+	<string name="menu_settings">Einstellungen</string>
+	<string name="menu_info">Info</string>
+	<string name="menu_statistics">Statistik</string>
+<!--Buttons-->
+	<string name="Button_ready">fertig</string>
+	<string name="Button_right">richtig</string>
+	<string name="Button_false">falsch</string>
+	<string name="Button_continue">weiter</string>
+	<string name="Button_delete">löschen</string>	    
+<!--settings	-->
+	<string name="settings_title">Einstellungen</string>
+	<string name="settings_language">Sprache</string>
+	<string name="settings_book_begin">Buch von</string>
+	<string name="settings_book_end">Buch bis</string>
+	<string name="settings_lesson_begin">Lektion von</string>
+	<string name="settings_lesson_end">Lektion bis</string>
+	<string name="settings_level_begin">Karteikasten von</string>
+	<string name="settings_level_end">Karteikasten bis</string>
+	<string name="settings_learn_mode">Lernmodus</string>
+	<string name="settings_learn_mode_watch_only">nur anschauen</string>
+	<string name="settings_learn_mode_classic">klassisch mit einsortieren</string>
+	<string name="settings_button_read_vocabularies">lese vocabularies_list.txt</string>
+	<string name="settings_button_write_vocabularies">schreibe backup datei</string>
+</resources>

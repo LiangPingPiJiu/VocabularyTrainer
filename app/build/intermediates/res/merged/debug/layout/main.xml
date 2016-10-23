@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background_color"
+    android:orientation="vertical"
+    android:textColor="@color/text_color"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!--<RelativeLayout-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="wrap_content">-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+	<TableRow>
+	
+<ScrollView
+	android:id="@+id/CharacterScrollView"
+	android:layout_width="10dp"
+    android:layout_height="110dp"
+    android:layout_column="1">
+    		<TextView
+				android:id="@+id/character"
+				android:textSize="73dp"
+				android:layout_width="250dp"
+				android:textColor="@color/text_color"
+				android:layout_height="wrap_content"
+            	android:padding="3dip"/>
+</ScrollView>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+    			<Button android:id="@+id/Button01"
+            	android:padding="3dip"
+            	android:layout_width="90dp"
+            	android:text="@string/Button_ready"
+    			android:layout_height="wrap_content"></Button>
+    		
+    			<Button android:id="@+id/Button02"
+  		  		android:layout_width="90dp"
+    			android:layout_height="wrap_content"
+            	android:text="@string/Button_delete"
+            	android:padding="3dip"
+            	android:layout_below="@+id/Button01"></Button>
+</RelativeLayout>
+</TableRow>
+</TableLayout>
+			<HorizontalScrollView
+				android:id="@+id/Bottom01ScrollView"
+				android:layout_width="fill_parent"
+    			android:layout_height="22dp"
+    			android:layout_column="1">
+				<TextView
+		  			android:textSize="15dp"
+		  			android:id="@+id/phonetic_script"
+		  			android:layout_width="fill_parent"
+					android:textColor="@color/text_color"
+		  			android:layout_height="wrap_content"/>
+		  	</HorizontalScrollView>
+			<HorizontalScrollView
+				android:id="@+id/Bottom02ScrollView"
+				android:layout_width="fill_parent"
+    			android:layout_height="22dp"
+    			android:layout_column="1">
+		  		<TextView
+		  			android:textSize="15dp"
+		  			android:id="@+id/translation" 
+		  			android:textColor="@color/text_color"
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="wrap_content"/>
+		  	</HorizontalScrollView>
+		  	<View
+        			android:layout_height="2dip"
+        			android:background="#FF909090"
+        			android:layout_width="fill_parent"/>
+        		
+        	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent">
+    					
+    				<com.tobias.vocabulary_trainer.DrawCanvas
+		  				android:id="@+id/DrawCanvas"
+		    			android:layout_alignParentLeft="true"
+		  				android:layout_alignParentRight="true"
+		  				android:layout_alignParentTop="true"
+		  				android:layout_alignParentBottom="true"
+  		  				android:layout_width="fill_parent"
+   		  				android:layout_height="fill_parent"/>
+    			
+    			</RelativeLayout>
+</LinearLayout>

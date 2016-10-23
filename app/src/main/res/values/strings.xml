@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+<resources>
+    <string name="app_name">Vocabulary Trainer</string>
+<!--errors	-->
+	<string name="error_title">Error: </string>
+<!--warnings	-->
+	<string name="warning_title">Warning: </string>
+<!--UpdateVocabularies	-->
+	<string name="update_title">Update Vocabularies: </string>
+	<string name="update_vocabularies_text">For updating your vocabularies
+	    from an online text file
+	    please enter the name of the server and the password
+	    for the ftp connection.</string>
+	<string name="server_adresse">server adresse:</string>
+	<string name="server_username">username:</string>
+	<string name="server_password">password</string>
+	<string name="server_port">port (standard: 21):</string>
+	<string name="server_file_path">server update-file path</string>
+	<string name="local_file_path">local update-file path</string>
+	<string name="serverExampleAddresse">ftp.example.org</string>
+  	<string name="serverExampleUsername">username</string>
+  	<string name="serverExamplePassword">password</string>
+  	<string name="serverExampleFilePath">update_vocabularies_list.txt</string>	          	
+	<string name="localeExampleFilePath">update_vocabularies_list.txt</string>
+<!--Buttons-->
+	<string name="Button_server_ok">server</string>
+	<string name="Button_local_file_ok">local file</string>
+	<string name="Button_cancel">Cancel</string>
+<!--Info	-->
+	<string name="info_title">Info: </string>
+	<string name="info_text_1">Vocabulary Trainer\n\nCopyright (C) [2012]  [Tobias Endrikat]
+	    \n\nThis program comes with ABSOLUTELY NO WARRANTY.
+	    \nIt is free software, and you are welcome to redistribute it under certain conditions
+	    \n\nLicense: GPLv3 -> read more at 
+	    </string>
+	<string name="info_text_2">
+	    \n\nVersion: 0.5
+	    \n\nThis Software is completely free, but if you like it, I would by really glad would
+	    you donate something.
+	    \nJust feel free to use the PayPal Button below, it will open a window of your favorite web-browser. ;)  
+	    \n</string>
+<!--Statistics	-->
+	<string name="statistics_title">Statistics: </string>
+<!--error no vocabularies_list.txt	-->
+	<string name="error_no_vocabularies_list_text">\
+	The file VocabularyTrainerBackup.txt could not be found on your SD-Card.
+	</string>
+<!--error no vocabularies	-->
+	<string name="error_no_vocabularies_text">\
+	Zu Ihrer Auswahl konnten keine Vokabeln gefunden werden.
+	Bitte ändern Sie ihre Auswahl.
+	</string>
+<!--warning read vocabularies	-->
+	<string name="warning_read_vocabularies_text">\
+	Beim Neueinlesen der Datenbank werden sämtliche alten Daten gelöscht \n
+	Wirklich löschen?
+	</string>
+
+<!--VocabularyTrainer-->	
+<!--menu items-->
+	<string name="menu_settings">Settings</string>
+	<string name="menu_info">Info</string>
+	<string name="menu_statistics">Statistics</string>
+<!--Buttons-->
+	<string name="Button_ready">ready</string>
+	<string name="Button_right">right</string>
+	<string name="Button_false">false</string>
+	<string name="Button_continue">continue</string>
+	<string name="Button_delete">delete</string>    
+<!--settings	-->
+	<string name="settings_title">Settings</string>
+	<string name="settings_language">language</string>
+	<string name="settings_book_begin">Buch von</string>
+	<string name="settings_book_end">Buch bis</string>
+	<string name="settings_lesson_begin">Lektion von</string>
+	<string name="settings_lesson_end">Lektion bis</string>
+	<string name="settings_level_begin">Karteikasten von</string>
+	<string name="settings_level_end">Karteikasten bis</string>
+	<string name="settings_learn_mode">Lernmodus</string>
+	<string name="settings_learn_mode_watch_only">nur anschauen</string>
+	<string name="settings_learn_mode_classic">klassisch mit einsortieren</string>
+	<string name="settings_button_read_vocabularies">read VocabularyTrainerBackup.txt</string>
+	<string name="settings_button_update_vocabularies">update vocabularies</string>
+	<string name="settings_button_write_vocabularies">write backup file</string>
+</resources>
