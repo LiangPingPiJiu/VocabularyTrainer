@@ -15,31 +15,55 @@
 <!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
 <!---->
 
-bugs:
-- nach vokabellisten update erneuern sich nicht die einstellungen nicht. kann zu total absturz führen.
-	anwendung lässt sich dann erst nach löschen der daten in den android einstellungen wieder starten
+known-issues:
+-after vocabularies-update settings don't refresh themselves.
+    -> may cause total crash which can only be solved by deleting the settings in the android-app-settings
 
 todo:
-- unterstützung von sftp 
-- erfolgs- bzw. fehlermeldung nach update der vokabeln
-- programmstart sprache in prefs schreiben
-- statistiken
-- info kontaktdaten, hostinpfad
-- evtl. donate activity
-- ermoegliche white space in der vocabularies.txt
-- anleitung implementieren
-- benutzeroberflaeche vereinfachen(?) evtl. beschriftungen verbessern
-- passende fehlermeldungen bei fehlerhaften vokabellisten
-- Datei "vocabularies_list.txt" - pfad anpassen
-- evtl. vokabellisten lesen/abspeichern optimieren
-- beim einlesen am anfang wartebalken einfügen
-- warnmeldung am anfang bei nicht vorhandener vocabularies_list textlich optimieren
-- warnmeldung am anfang bei fehlerhafter vocabularies_list textlich optimieren
-- beim Einlesen in WarningReadVocabularies wartebalken einfügen
-- beim Einlesen in UpdateVocabularies wartebalken einfügen
-- Farben anpassen (Lesbarkeit der Schrift)
-- Landscape mode abfangen
-- statt zeichenfläche auch textfeld + umschalter
-- quellcode verschönern, evtl. weitere strings auslagern
-- übersetzten
-- veröffentlichen (o:
+
+
+-----------------------new features-----------------------
+- add feature to move vocabularies into another box
+- show textfield + switch instead of canvas
+- support sftp
+- show success or fail after update of the vocabularies
+- implement stats such as how many vocabularies in which box
+- allow white space in vocabularies.txt
+- show good error message if vocabularies-list is incorrect
+- add feature to change the path of the vocabularies-list
+- show progress bar while reading vocabularies-list at programm start
+- show progress bar while reading vocabularies-list in WarningReadVocabularies
+- show progress bar while updating vocabularies
+
+
+------------------------usability-------------------------
+- improve colors for better readability
+- catch landscape
+- complete existing translations
+- add new translations
+- simplify user interface, improve explanations
+- nicer drawing
+- improve warning-message when programm starts without vocabularies-list
+- improve warning-message when programm starts with incorrect vocabularies-list
+
+
+
+-----------------documentation and manual-----------------
+- readme
+- implement in-App manual
+- info: add contact-information and github-path
+- translate last german code-comments
+- better code-documentation
+
+
+-----------------------performance------------------------
+- probably improve reading/saving of the vocabularies-lists, with better performance
+
+
+---------------------------else---------------------------
+- refactoring
+- source out last hard-coded strings
+- write language into prefs after first(?) start of the programm
+- publish on F-Droid
+- publish on Play-Store
+
