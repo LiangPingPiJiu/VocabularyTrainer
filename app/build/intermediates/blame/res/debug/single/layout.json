@@ -8,12 +8,12 @@
         "source": "/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/error_no_vocabularies_list_layout.xml"
     },
     {
-        "merged": "/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/merged/debug/layout/update_vocabularies_layout.xml",
-        "source": "/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/update_vocabularies_layout.xml"
-    },
-    {
         "merged": "/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/merged/debug/layout/settings_layout.xml",
         "source": "/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/settings_layout.xml"
+    },
+    {
+        "merged": "/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/merged/debug/layout/update_vocabularies_layout.xml",
+        "source": "/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/layout/update_vocabularies_layout.xml"
     },
     {
         "merged": "/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/merged/debug/layout/warning_read_vocabularies_layout.xml",

@@ -1,0 +1,45 @@
+<!--[Vocabulary Trainer]-->
+<!--Copyright (C) [2012]  [Tobias Endrikat]-->
+<!---->
+<!--This program is free software;-->
+<!--you can redistribute it and/or modify it under the terms of the-->
+<!--GNU General Public License as published by the Free Software Foundation;-->
+<!--either version 3 of the License, or (at your option) any later version.-->
+<!---->
+<!--This program is distributed in the hope that it will be useful,-->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY-->
+<!--or FITNESS FOR A PARTICULAR PURPOSE.-->
+<!--See the GNU General Public License for more details.-->
+<!---->
+<!--You should have received a copy of the GNU General Public License-->
+<!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
+<!---->
+
+bugs:
+- nach vokabellisten update erneuern sich nicht die einstellungen nicht. kann zu total absturz führen.
+	anwendung lässt sich dann erst nach löschen der daten in den android einstellungen wieder starten
+
+todo:
+- unterstützung von sftp 
+- erfolgs- bzw. fehlermeldung nach update der vokabeln
+- programmstart sprache in prefs schreiben
+- statistiken
+- info kontaktdaten, hostinpfad
+- evtl. donate activity
+- ermoegliche white space in der vocabularies.txt
+- anleitung implementieren
+- benutzeroberflaeche vereinfachen(?) evtl. beschriftungen verbessern
+- passende fehlermeldungen bei fehlerhaften vokabellisten
+- Datei "vocabularies_list.txt" - pfad anpassen
+- evtl. vokabellisten lesen/abspeichern optimieren
+- beim einlesen am anfang wartebalken einfügen
+- warnmeldung am anfang bei nicht vorhandener vocabularies_list textlich optimieren
+- warnmeldung am anfang bei fehlerhafter vocabularies_list textlich optimieren
+- beim Einlesen in WarningReadVocabularies wartebalken einfügen
+- beim Einlesen in UpdateVocabularies wartebalken einfügen
+- Farben anpassen (Lesbarkeit der Schrift)
+- Landscape mode abfangen
+- statt zeichenfläche auch textfeld + umschalter
+- quellcode verschönern, evtl. weitere strings auslagern
+- übersetzten
+- veröffentlichen (o:

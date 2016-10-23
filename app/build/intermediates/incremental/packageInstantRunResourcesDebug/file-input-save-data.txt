@@ -1,23 +1,23 @@
 #Internal package file, do not edit.
-#Fri Oct 21 23:32:53 CEST 2016
+#Sun Oct 23 14:43:44 CEST 2016
 2.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 5.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/warning_read_vocabularies_layout.xml
 5.set=ANDROID_RESOURCE
 3.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
-6.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/error_no_vocabularies_list_layout.xml
+6.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/info_layout.xml
 2.set=ANDROID_RESOURCE
 10.set=ANDROID_RESOURCE
 10.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
 4.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
-7.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/info_layout.xml
+7.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/error_no_vocabularies_list_layout.xml
 7.set=ANDROID_RESOURCE
 count=11
-0.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+0.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/settings_layout.xml
 5.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 8.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/error_no_vocabularies_layout.xml
 4.set=ANDROID_RESOURCE
 6.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
-1.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/settings_layout.xml
+1.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 9.set=ANDROID_RESOURCE
 9.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/statistics_layout.xml
 10.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
