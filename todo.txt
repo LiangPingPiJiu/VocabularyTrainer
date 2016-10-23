@@ -37,6 +37,7 @@ todo:
 
 
 ------------------------usability-------------------------
+- upload of an example-vocabularies-list
 - improve colors for better readability
 - catch landscape
 - complete existing translations
