@@ -36,6 +36,7 @@ android:layout_height="fill_parent">
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
             	android:padding="3dip"/>
+
 			<TextView
 				android:id="@+id/text_language"
 				android:text="@string/settings_language"
@@ -127,40 +128,51 @@ android:layout_height="fill_parent">
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
             	android:padding="3dip"/>
+
 			<Spinner
 				android:id="@+id/spinner_learn_mode"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
 				android:drawSelectorOnTop="true"/>
+
+			<Button android:id="@+id/moveVocabularies"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/settings_button_move_vocabularies"
+				android:padding="3dip"></Button>
+
 			<Button android:id="@+id/updateVocabularies"
   		  		android:layout_width="fill_parent"
     			android:layout_height="wrap_content"
-            	android:text="@string/settings_button_update_vocabularies"
+				android:text="@string/settings_button_update_vocabularies"
             	android:padding="3dip"></Button>
+
 			<Button android:id="@+id/readVocabularies"
   		  		android:layout_width="fill_parent"
     			android:layout_height="wrap_content"
-            	android:text="@string/settings_button_read_vocabularies"
+				android:text="@string/settings_button_read_vocabularies"
             	android:padding="3dip"></Button>
+
 			<Button android:id="@+id/writeVocabularies"
   		  		android:layout_width="fill_parent"
     			android:layout_height="wrap_content"
-            	android:text="@string/settings_button_write_vocabularies"
+				android:text="@string/settings_button_write_vocabularies"
             	android:padding="3dip"></Button>
+
 			<LinearLayout
 			xmlns:android="http://schemas.android.com/apk/res/android"
 			android:orientation="horizontal"
 			android:layout_width="fill_parent"
-			android:layout_height="wrap_content">	
+			android:layout_height="wrap_content">
 			<Button android:id="@+id/OkButton"
   		  		android:layout_width="150dp"
     			android:layout_height="wrap_content"
-            	android:text="OK"
+				android:text="@string/settings_button_ok"
             	android:padding="3dip"></Button>
 			<Button android:id="@+id/CancelButton"
   		  		android:layout_width="fill_parent"
     			android:layout_height="wrap_content"
-            	android:text="Cancel"
+				android:text="@string/settings_button_cancel"
             	android:padding="3dip"></Button>
 			</LinearLayout>
 		</LinearLayout>		

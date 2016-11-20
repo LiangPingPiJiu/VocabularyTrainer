@@ -170,7 +170,7 @@ public class UpdateVocabularies extends Activity
 	{
 		System.out.println("called updateUIFromPreferences();");
 		String serverAdresse = prefs.getString(PREF_SERVER_ADDRESSE,
-				getString(R.string.serverExampleAddresse));
+				getString(R.string.serverExampleAddress));
 		String serverUsername = prefs.getString(PREF_SERVER_USERNAME,
 				getString(R.string.serverExampleUsername));
 		String serverPassword = prefs.getString(PREF_SERVER_PASSWORD,

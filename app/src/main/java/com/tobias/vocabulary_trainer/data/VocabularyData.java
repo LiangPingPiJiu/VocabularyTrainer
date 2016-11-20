@@ -55,12 +55,12 @@ public class VocabularyData extends SQLiteOpenHelper
 	
 	public final static String VOCABULARIES_LIST="VocabularyTrainerBackup.txt";
 
-	/** Construcor - Create a helper object for the Events database */
+	/** Constructor - Create a helper object for the Events database */
 	public VocabularyData(Context ctx)
 	{
 		super(ctx, DATABASE_NAME, null, DATABASE_VERSION);
 	}
-	
+
 	@Override
 	public void onCreate(SQLiteDatabase db)
 	{
@@ -72,9 +72,9 @@ public class VocabularyData extends SQLiteOpenHelper
 				+ PHONETIC_SCRIPT + " TEXT NOT NULL,"
 				+ TRANSLATION + " TEXT NOT NULL,"
 				+ LEVEL + " INTEGER"
-				+		");");		
+				+		");");
 	}
-	
+
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion,
 	int newVersion)
@@ -82,42 +82,42 @@ public class VocabularyData extends SQLiteOpenHelper
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
 		onCreate(db);
 	}
-	
+
 	public void deleteDatabase(SQLiteDatabase db)
 	{
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
 		onCreate(db);
 	}
-	
+
 	public String getWhereClause(SharedPreferences settings)
     {
     	StringBuilder builder = new StringBuilder("");
-    	
+
     	int bookBeginIndex = settings.getInt(Settings.PREF_BOOK_BEGIN, 0);
 		int bookEndIndex = settings.getInt(Settings.PREF_BOOK_END, 0);
 		int lessonBeginIndex = settings.getInt(Settings.PREF_LESSON_BEGIN, 0);
 		int lessonEndIndex = settings.getInt(Settings.PREF_LESSON_END, 0);
 		int levelBeginIndex = settings.getInt(Settings.PREF_LEVEL_BEGIN, 0);
 		int levelEndIndex = settings.getInt(Settings.PREF_LEVEL_END, 4);
-		
+
     	// Get the data represented by the indexes and add it to the WHERE Clause
 		Vector<Integer> available_books;
 		Vector<Integer> available_books_end;
 		Vector<Integer> available_lessons;
 		Vector<Integer> available_lessons_end;
-		
+
 		Vector<Integer> levels = new Vector<Integer>();
-		
+
 		levels.add(new Integer(-2));
 		levels.add(new Integer(-1));
 		levels.add(new Integer(0));
 		levels.add(new Integer(1));
 		levels.add(new Integer(2));
-		
+
 		available_books = getBooks();
 		available_lessons = getLessons(available_books.get(bookBeginIndex));
 		available_books_end = Conversion.toVector(available_books.subList(bookBeginIndex, available_books.size()));
-		
+
 		if(bookEndIndex == 0)
 		{
 			available_lessons_end = Conversion.toVector(available_lessons.subList(lessonBeginIndex, available_lessons.size()));
@@ -128,7 +128,7 @@ public class VocabularyData extends SQLiteOpenHelper
 		}
 		Vector<Integer> levelsEnd;
 		levelsEnd = Conversion.toVector(levels.subList(levelBeginIndex, levels.size()));
-		
+
 		builder.append(BOOK + " = " + available_books.get(bookBeginIndex)
 		        + " and " + LESSON  + " >= " +  available_lessons.get(lessonBeginIndex)
 		        + " and " + levels.get(levelBeginIndex) + " <= "+ LEVEL
@@ -136,14 +136,14 @@ public class VocabularyData extends SQLiteOpenHelper
 		        if(bookEndIndex == 0)
 		        {
 		            //if book begin and book end are the same
-		        	builder.append(" and " + LESSON  + " <= " +  available_lessons_end.get(lessonEndIndex));			
+		        	builder.append(" and " + LESSON  + " <= " +  available_lessons_end.get(lessonEndIndex));
 		        }
-		
+
 		builder.append(" or " + BOOK + " > " + available_books.get(bookBeginIndex)
 		        + " and " + BOOK + " < " + available_books_end.get(bookEndIndex)
 				+ " and " + levels.get(levelBeginIndex) + " <= "+ LEVEL
 				+ " and " + levelsEnd.get(levelEndIndex) + " >= " + LEVEL);
-		
+
 		if(bookEndIndex > 0)
 		{
 			//if book begin and book end are not the same
@@ -154,11 +154,11 @@ public class VocabularyData extends SQLiteOpenHelper
 		}
 		return builder.toString();
     }
-	
+
 	/**
 	 * @return a sorted array of all available books from database
 	 */
-	public Vector<Integer> getBooks() 
+	public Vector<Integer> getBooks()
 	{
 		boolean moreBooks;
 		Vector<Integer> books = new Vector<Integer>();
@@ -166,7 +166,7 @@ public class VocabularyData extends SQLiteOpenHelper
 		SQLiteDatabase db = this.getReadableDatabase();
     	Cursor cursor = db.query(TABLE_NAME, from, null, null, null,
     			null, BOOK);
-    	
+
     	cursor.moveToFirst();
     	moreBooks = false;
     	if (cursor.getCount() > 0) {
@@ -182,7 +182,7 @@ public class VocabularyData extends SQLiteOpenHelper
     	cursor.close();
 		return books;
 	}
-	
+
     public Vector<Integer> getLessons(int book)
 	{
     	boolean moreLessons;
@@ -191,7 +191,7 @@ public class VocabularyData extends SQLiteOpenHelper
 		SQLiteDatabase db = this.getReadableDatabase();
     	Cursor cursor = db.query(TABLE_NAME, from, BOOK + " like " + book, null, null,
     			null, BOOK);
-    	
+
     	cursor.moveToFirst();
     	moreLessons = false;
     	if (cursor.getCount() > 0) {
@@ -221,7 +221,13 @@ public class VocabularyData extends SQLiteOpenHelper
 		db.insertOrThrow(TABLE_NAME, null, values);
 	}
 
-	public boolean readVocabularies(File f, boolean delete_old_database) //reads (text)file f
+	/**
+	 * reads text-file and saves the containing vocabularies in the database
+	 * @param f	text-file with vocabularies
+	 * @param delete_old_database	true if existing database should be overwritten
+     * @return	true if succeed, otherwise false
+     */
+	public boolean readVocabularies(File f, boolean delete_old_database)
 	{
 		try
 		{
@@ -233,8 +239,14 @@ public class VocabularyData extends SQLiteOpenHelper
 			return false;
 		}
 	}
-	
-	public boolean readVocabularies(InputStream in, boolean delete_old_database) //reads (text)file f
+
+	/**
+	 * reads InputStream and saves the containing vocabularies in the database
+	 * @param in	FileInputStream
+	 * @param delete_old_database	true if existing database should be overwritten
+     * @return	true if succeed, otherwise false
+     */
+	public boolean readVocabularies(InputStream in, boolean delete_old_database)
 	{
 		boolean success;
 		success = false;
@@ -247,7 +259,7 @@ public class VocabularyData extends SQLiteOpenHelper
 					//first delete old database to avoid double vocabularies
 					SQLiteDatabase db = getWritableDatabase();
 					deleteDatabase(db);
-				}				
+				}
 				InputStreamReader tmp = new InputStreamReader(in);
 				BufferedReader reader = new BufferedReader(tmp);
 				String str;
@@ -286,7 +298,7 @@ public class VocabularyData extends SQLiteOpenHelper
 							if(counter == 0) // if book
 							{
 								book = Integer.parseInt(temp);
-							}    						
+							}
 							if(counter == 1) // if lesson
 							{
 								lesson = Integer.parseInt(temp);
@@ -309,8 +321,7 @@ public class VocabularyData extends SQLiteOpenHelper
 							}
 							counter++;
 						}
-						addVocabulary(book, lesson, character, phonetic_script,
-								translation, level);
+						addVocabulary(book, lesson, character, phonetic_script,	translation, level);
 						//update vocabularies_list.txt
 						if(!delete_old_database)
 						{
@@ -323,16 +334,16 @@ public class VocabularyData extends SQLiteOpenHelper
 				in.close();
 				success = true;
 			}
-		}	
+		}
 		catch (Exception e)
 		{
 			success = false;
 			System.out.println("error while io access: " + e.getMessage());
 		}
-		
+
 		return success;
 	}
-	
+
 	public boolean addVocabulariesToTextFile(File fileToBeUpdated, String updateString)
 	{
 		//doesn't sort the vocabularies, just add them to the end of the existing list
@@ -350,8 +361,8 @@ public class VocabularyData extends SQLiteOpenHelper
 				catch (Throwable t)
 				{
 					//do nothing yet
-				}		
-		
+				}
+
 		return success;
 	}
 
@@ -391,6 +402,14 @@ public class VocabularyData extends SQLiteOpenHelper
 	    			+ LEVEL + " = " + (current_level - 1)
 	    			+ " where " + _ID + " = " + ID);
 		}
+	}
+
+	public void moveSelectedVocabularies(String WHERE, int newBox)
+	{
+		SQLiteDatabase db = getWritableDatabase();
+		db.execSQL("update " + TABLE_NAME + " set "
+				+ LEVEL + " = " + (newBox)
+				+ " where " + WHERE);
 	}
 
 	public String getCharacter(Cursor cursor, int id)

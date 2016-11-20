@@ -15,21 +15,28 @@
 <!--You should have received a copy of the GNU General Public License-->
 <!--along with this program; if not, see <http://www.gnu.org/licenses/>.-->
 <!---->
-	<resources>
-	    <string-array name="languages">
-			<item>Deutsch</item>
-			<item>English</item>
-			<item>Français</item>
-			<item>中文 (简体)</item>
-		</string-array>
-		<string-array name="languagecodes">
-			<item>de</item>
-			<item>en</item>
-			<item>fr</item>
-			<item>cn</item>
-		</string-array>
-		<string-array name="learn_mode">
-			<item>@string/settings_learn_mode_watch_only</item>
-			<item>@string/settings_learn_mode_classic</item>
-		</string-array>
+<resources>
+	<string-array name="languages">
+		<item>Deutsch</item>
+		<item>English</item>
+		<item>Français</item>
+		<item>中文 (简体)</item>
+	</string-array>
+	<string-array name="languagecodes">
+		<item>de</item>
+		<item>en</item>
+		<item>fr</item>
+		<item>cn</item>
+	</string-array>
+	<string-array name="learn_mode">
+		<item>@string/settings_learn_mode_watch_only</item>
+		<item>@string/settings_learn_mode_classic</item>
+	</string-array>
+	<string-array name="vocabulary_boxes">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
 </resources>

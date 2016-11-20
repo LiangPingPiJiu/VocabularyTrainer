@@ -5,8 +5,8 @@
     android:versionName="0.5" >
 
     <uses-sdk
-        android:minSdkVersion="4"
-        android:targetSdkVersion="4" />
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
 
     <supports-screens
         android:anyDensity="true"
@@ -17,8 +17,10 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
-        android:debuggable="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
@@ -36,29 +38,27 @@
             android:configChanges="locale" />
         <activity
             android:name="com.tobias.vocabulary_trainer.ErrorNoVocabulariesList"
-            android:label="@string/error_title" >
-        </activity>
+            android:label="@string/error_title" />
         <activity
             android:name="com.tobias.vocabulary_trainer.ErrorNoVocabularies"
             android:label="@string/error_title"
-            android:theme="@android:style/Theme.Dialog" >
-        </activity>
+            android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name="com.tobias.vocabulary_trainer.UpdateVocabularies"
             android:label="@string/update_title"
-            android:theme="@android:style/Theme.Dialog" >
-        </activity>
+            android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name="com.tobias.vocabulary_trainer.WarningReadVocabularies"
             android:label="@string/warning_title"
-            android:theme="@android:style/Theme.Dialog" >
-        </activity>
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.tobias.vocabulary_trainer.MoveVocabularies"
+            android:label="@string/move_vocabularies_title"
+            android:theme="@android:style/Theme.Dialog" />
         <activity
             android:name="com.tobias.vocabulary_trainer.Info"
-            android:label="@string/info_title" >
-        </activity>
-        <activity android:name="com.tobias.vocabulary_trainer.Statistics" >
-        </activity>
+            android:label="@string/info_title" />
+        <activity android:name="com.tobias.vocabulary_trainer.Statistics" />
     </application>
 
 </manifest>

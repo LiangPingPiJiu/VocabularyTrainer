@@ -140,8 +140,9 @@ implements android.widget.AdapterView.OnItemSelectedListener
         spinnerLevelBegin = (Spinner)findViewById(R.id.spinner_level_begin);
         spinnerLevelEnd = (Spinner)findViewById(R.id.spinner_level_end);
         spinnerLearnMode = (Spinner)findViewById(R.id.spinner_learn_mode);
-        final Intent warningIntent = new Intent(this, WarningReadVocabularies.class);        
-        final Intent updateIntent = new Intent(this, UpdateVocabularies.class); 
+		final Intent moveVocabulariesIntent = new Intent(this, MoveVocabularies.class);
+		final Intent warningIntent = new Intent(this, WarningReadVocabularies.class);
+        final Intent updateIntent = new Intent(this, UpdateVocabularies.class);
         //if language has been updated, restore the temp settings
         //attention for later use: prefs = tempPrefs will not be reset in this onCreate()!
         if(tempPrefs.getInt(PREF_LANGUAGE_UPDATED, 0) == 1)
@@ -166,7 +167,7 @@ implements android.widget.AdapterView.OnItemSelectedListener
     	lastPositionSpinnerLevelBegin = spinnerLevelBegin.getSelectedItemPosition();
     	lastPositionSpinnerLevelEnd = spinnerLevelEnd.getSelectedItemPosition();
     	lastPositionSpinnerLearnMode = spinnerLearnMode.getSelectedItemPosition();
-    	
+
     	final Button OkButton = (Button) findViewById(R.id.OkButton);
         OkButton.setOnClickListener(new View.OnClickListener()
         {
@@ -195,6 +196,16 @@ implements android.widget.AdapterView.OnItemSelectedListener
             	startActivity(updateIntent);
         	}
         });
+		final Button moveVocabulariesButton = (Button) findViewById(R.id.moveVocabularies);
+		moveVocabulariesButton.setOnClickListener(new View.OnClickListener()
+		{
+			public void onClick(View v)
+			{
+				savePreferences();
+				//open an alert box with the MoveVocabularies-intent
+				startActivity(moveVocabulariesIntent);
+			}
+		});
         final Button readVocabulariesButton = (Button) findViewById(R.id.readVocabularies);
         readVocabulariesButton.setOnClickListener(new View.OnClickListener()
         {

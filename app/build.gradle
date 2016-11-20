@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 4
+    compileSdkVersion 10
     buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "com.tobias.vocabulary_trainer"
-        minSdkVersion 4
-        targetSdkVersion 4
+        minSdkVersion 10
+        targetSdkVersion 10
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_5
             targetCompatibility JavaVersion.VERSION_1_5
@@ -23,6 +23,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/commons-net-3.1.jar')
+    compile 'com.android.support:support-v4:18.0.0'
 }

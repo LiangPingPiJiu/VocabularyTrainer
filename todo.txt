@@ -18,53 +18,69 @@
 known-issues:
 -after vocabularies-update settings don't refresh themselves.
     -> may cause total crash which can only be solved by deleting the settings in the android-app-settings
+-it seems to be necessary, that every vocabulary has at least one character != " " in the "character"-field,
+    probably freezes and/or crashes otherwise
 
 todo:
 
 
 -----------------------new features-----------------------
 - add feature to move vocabularies into another box
-- show textfield + switch instead of canvas
+- add feature to modify a vocabulary, e.g. to correct a typo
+- show text field + switch instead of canvas
 - support sftp
 - show success or fail after update of the vocabularies
 - implement stats such as how many vocabularies in which box
 - allow white space in vocabularies.txt
 - show good error message if vocabularies-list is incorrect
 - add feature to change the path of the vocabularies-list
-- show progress bar while reading vocabularies-list at programm start
+- show progress bar while reading vocabularies-list at program start
 - show progress bar while reading vocabularies-list in WarningReadVocabularies
 - show progress bar while updating vocabularies
 
 
 ------------------------usability-------------------------
-- upload of an example-vocabularies-list
+- make start without vocabularies-list but with example vocabularies instead possible
+- change vocabulary-boxes names from -2-+2 to 1-5
+- allow user comments e.g. a book legend in the vocabulary-list
+    -e.g.:  #book 1 = "Chinese Learning A1"
+            #book 2 = "Chinese Learning A2"
+    -should also be saved in the database and later in the backup vocabularies list
+        -should probably associated with a book and lesson to write them later at the same place automatically
+            -explicit or maybe better depending on the next vocabulary
 - improve colors for better readability
 - catch landscape
 - complete existing translations
 - add new translations
 - simplify user interface, improve explanations
 - nicer drawing
-- improve warning-message when programm starts without vocabularies-list
-- improve warning-message when programm starts with incorrect vocabularies-list
+- improve warning-message when program starts without vocabularies-list (not necessary anymore if program starts without vocabularies-list)
+- improve warning-message when program starts with incorrect vocabularies-list (not necessary anymore if program starts without vocabularies-list)
+- show result after write-vocabularies (success/failed)
 
 
 
 -----------------documentation and manual-----------------
 - readme
 - implement in-App manual
+    -short explanation of usage
+    -links to known bugs and to-do-list (this file)
 - info: add contact-information and github-path
 - translate last german code-comments
 - better code-documentation
+- upload of an example-vocabularies-list
 
 
 -----------------------performance------------------------
-- probably improve reading/saving of the vocabularies-lists, with better performance
+- probably improve reading/saving of the vocabularies-lists
 
 
 ---------------------------else---------------------------
 - refactoring
 - source out last hard-coded strings
-- write language into prefs after first(?) start of the programm
+- write language into prefs after first(?) start of the program
 - publish on F-Droid
 - publish on Play-Store
+- save version at only one place (not in all strings.xml, AndroidManifest.xml and ???)
+
 

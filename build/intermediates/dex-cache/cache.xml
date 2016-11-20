@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f81b55b9a124f4f22f27fa0b1849bef3d4cb51ed">
+        sha1="564bb7f92956e7fab3f47922c56c7a1b8f7d10dd">
         <dex dex="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/pre-dexed/debug/instant-run_5b36550f69ef759d3ee281a81474456e80cdd0e4.jar" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4f60d969c9eb2acd654552ca4c1463b079857245">
+        sha1="90dfae5fa0a840fc30faa6e2bf9b05c4a4153adb">
         <dex dex="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4fd52b4e042574c75b91260899048ccfb0fe8954.jar" />
     </item>
     <item
