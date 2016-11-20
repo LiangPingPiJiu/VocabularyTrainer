@@ -18,8 +18,10 @@
 known-issues:
 -after vocabularies-update settings don't refresh themselves.
     -> may cause total crash which can only be solved by deleting the settings in the android-app-settings
--it seems to be necessary, that every vocabulary has at least one character != " " in the "character"-field,
+-it seems to be necessary, that every vocabulary has at least one character != ' ' in the "character"-field,
     probably freezes and/or crashes otherwise
+-in newer versions, maybe with higher SDK-versions(?), it takes very long to go from settings to the learn-mode (to the VocabularyTrainer activity)
+-in newer versions, maybe with higher SDK-versions(?), it takes very long to change the language in settings (maybe because string-translations are incomplete?)
 
 todo:
 
@@ -33,7 +35,9 @@ todo:
 - implement stats such as how many vocabularies in which box
 - allow white space in vocabularies.txt
 - show good error message if vocabularies-list is incorrect
-- add feature to change the path of the vocabularies-list
+- add feature to change the path of the vocabularies-list for reading input file
+- add feature to change the path of the vocabularies-list for writing backup file
+- show warning when overwriting backup file
 - show progress bar while reading vocabularies-list at program start
 - show progress bar while reading vocabularies-list in WarningReadVocabularies
 - show progress bar while updating vocabularies
