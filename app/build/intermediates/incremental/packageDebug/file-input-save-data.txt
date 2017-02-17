@@ -1,8 +1,8 @@
 #Internal package file, do not edit.
-#Sun Nov 20 03:13:03 CET 2016
+#Fri Feb 17 14:46:23 CET 2017
 8.set=ANDROID_RESOURCE
 1.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
-1.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/settings_layout.xml
+1.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 3.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/transforms/mergeJavaRes/debug/folders/2/1f/main/com/tobias/vocabulary_trainer/vocabulary_trainer-i.ucd
 3.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/transforms/mergeJavaRes/debug/folders/2/1f/main
 15.set=ANDROID_RESOURCE
@@ -15,7 +15,7 @@
 11.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 9.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 9.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
-13.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/error_no_vocabularies_list_layout.xml
+13.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/warning_read_vocabularies_layout.xml
 13.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 11.set=DEX
 0.set=ANDROID_RESOURCE
@@ -26,7 +26,7 @@
 3.set=JAVA_RESOURCE
 10.set=ANDROID_RESOURCE
 0.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
-0.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+0.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/settings_layout.xml
 6.set=ANDROID_RESOURCE
 2.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/update_vocabularies_layout.xml
 2.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
@@ -40,7 +40,7 @@
 8.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 8.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldpi-v4/icon.png
 2.set=ANDROID_RESOURCE
-12.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/warning_read_vocabularies_layout.xml
+12.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/layout/error_no_vocabularies_list_layout.xml
 12.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_
 14.file=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/icon.png
 14.base=/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/res/resources-debug.ap_

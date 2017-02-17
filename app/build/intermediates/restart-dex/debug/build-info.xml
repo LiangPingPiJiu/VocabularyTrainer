@@ -5,37 +5,43 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="414656396350716"
+    timestamp="2174806135977936"
     token="-215011768200869052"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="524" />
+        duration="460" />
     <task
         name="instant-run-dex"
-        duration="536" />
+        duration="506" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="46" />
     <task
         name="verifier"
-        duration="15" />
+        duration="18" />
 
+    <artifact
+        location="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
     <artifact
         location="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/reload-dex/debug/classes.dex"
         type="RELOAD_DEX" />
 
     <build
-        timestamp="414502864590955"
+        timestamp="2174119051592263"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/tobi/StudioProjects/VocabularyTrainer/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="414656396350716"
+        timestamp="2174806135977936"
         verifier="COMPATIBLE" >
+        <artifact
+            location="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
         <artifact
             location="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/reload-dex/debug/classes.dex"
             type="RELOAD_DEX" />

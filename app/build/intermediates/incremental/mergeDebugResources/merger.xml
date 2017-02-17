@@ -20,11 +20,11 @@
 	    you donate something.
 	    \nJust feel free to use the PayPal Button below, it will open a window of your favorite web-browser. ;)
 	    \n</string><string name="menu_info">Info</string><string name="settings_level_begin">Karteikasten von</string><string name="server_password">password</string><string name="settings_button_ok">ok</string><string name="Button_ready">ready</string><string name="info_title">Info: </string><string name="Button_delete">delete</string><string name="serverExampleUsername">username</string><string name="button_move_vocabularies_ok">Move!</string><string name="Button_cancel">Cancel</string><string name="app_name">Vocabulary Trainer</string><string name="serverExampleFilePath">update_vocabularies_list.txt</string><string name="settings_learn_mode_watch_only">nur anschauen</string><string name="localeExampleFilePath">update_vocabularies_list.txt</string><string name="Button_false">false</string><string name="Button_local_file_ok">local file</string><string name="move_vocabularies_title">Move vocabularies</string></file><file path="/home/tobi/StudioProjects/VocabularyTrainer/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="vocabulary_boxes">
+		<item>-2</item>
+		<item>-1</item>
+		<item>0</item>
 		<item>1</item>
 		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
 	</string-array><string-array name="languages">
 		<item>Deutsch</item>
 		<item>English</item>

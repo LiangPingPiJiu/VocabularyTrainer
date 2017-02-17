@@ -97,8 +97,8 @@ public class MoveVocabularies extends Activity implements android.widget.Adapter
     {
         if(parent == spinnerMoveTargetBox)
         {
-            selectedTargetBox = position;
-            System.out.println("Box Nummer " + selectedTargetBox + " ausgewaehlt.");
+            selectedTargetBox = position - 2; //first position is 0 but we wanna have -2
+            System.out.println("Selected box-number: " + selectedTargetBox);
         }
     }
 

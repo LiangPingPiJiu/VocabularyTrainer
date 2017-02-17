@@ -33,10 +33,10 @@
 		<item>@string/settings_learn_mode_classic</item>
 	</string-array>
 	<string-array name="vocabulary_boxes">
+		<item>-2</item>
+		<item>-1</item>
+		<item>0</item>
 		<item>1</item>
 		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
 	</string-array>
 </resources>

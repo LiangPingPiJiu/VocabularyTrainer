@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/home/tobi/StudioProjects/VocabularyTrainer/app/libs/commons-net-3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
-        <dex dex="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/pre-dexed/debug/commons-net-3.1_e8aa81304c9f12748a2e5469715cb573309df160.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/tobi/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -27,6 +18,15 @@
         revision="25.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
         <dex dex="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_bcf85942a929d9eccd5c56a98a08641aa2a2a53e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tobi/StudioProjects/VocabularyTrainer/app/libs/commons-net-3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
+        <dex dex="/home/tobi/StudioProjects/VocabularyTrainer/app/build/intermediates/pre-dexed/debug/commons-net-3.1_e8aa81304c9f12748a2e5469715cb573309df160.jar" />
     </item>
     <item
         is-multidex="false"
